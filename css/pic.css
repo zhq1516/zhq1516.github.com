@@ -1,0 +1,155 @@
+.ui-page1{
+    display: flex;
+    width:370px;
+    height: 200px;
+    border:1px solid rgb(113,113,113); 
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+
+}
+
+.ui-page1-pic{
+	box-sizing: border-box;
+	width: 50px;
+	height: 50px;
+	background: rgb(192,192,192);
+	border: 1px solid rgb(113,113,113);
+	margin:10px;
+}
+
+.ui-page1-empty{
+	width: 300px;
+	height: 80px;
+}
+
+.ui-hide{
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 300px;
+}
+
+.ui-page1-showpic{
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	margin-top:20px;
+	margin-left: 100px;
+	border:1px solid rgb(113,113,113);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ui-page1-showpic-pic{
+	box-sizing: border-box;
+    width:150px;
+    height: 150px;
+    background: rgb(128,128,128);
+    border:1px solid rgb(113,113,113);
+}
+
+
+.ui-page2{
+	position:absolute;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	width: 400px;
+	height: 330px;
+	margin-top:300px;
+	padding:50px;
+}
+
+.ui-page2-select{
+	box-sizing: border-box;
+	width:60px;
+	height: 30px;
+	border:1px solid rgb(113,113,113);
+}
+
+.ui-page2-show{
+	box-sizing: border-box;
+	width: 300px;
+	height: 200px;
+	border:1px solid rgb(113,113,113);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 100px;
+	color: rgb(192,192,192);
+}
+
+
+.ui-page3{
+	position: absolute;
+	box-sizing: border-box;
+	width:400px;
+	height: 300px;
+	border:1px solid black;
+	margin-top: 700px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ui-page3-p1{
+	width: 400px;
+	height: 250px;
+	overflow: auto;
+}
+
+.ui-page3-bar{
+	box-sizing: border-box;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.ui-page3-bar-p1{
+	box-sizing: border-box;
+	width:30px;
+	height: 30px;
+	border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-page3-bar-p2{
+	box-sizing: border-box;
+    width:200px;
+    height: 30px;
+    border:1px solid black;
+    border-left: 0;
+}
+
+.ui-page3-bar-p3{
+	box-sizing: border-box;
+	width: 100px;
+	height: 30px;
+	border:1px solid black;
+	border-left: 0;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ui-page3-button{
+	width:150px;
+	height: 40px;
+	border:1px solid black;
+	background: green;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: -170px;
+}
+
