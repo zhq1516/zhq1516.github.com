@@ -1,0 +1,11 @@
+#myMap{
+	width: 800px;
+	height: 800px;
+	float: left;
+}
+
+#results{
+	width: 300px;
+	height: 800px;
+	float: right;
+}
